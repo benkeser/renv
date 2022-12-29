@@ -142,7 +142,7 @@ by dedicating a first stage build to package synchronization and a second stage
 build to copying files and executing code that may need to be updated often 
 across builds (e.g., code that needs to be debugged in the container).
 
-To implement a two stage build, the following code could be used in a single
+To implement a two stage build, the following code could be used as part of a
 Dockerfile.
 
 ```
