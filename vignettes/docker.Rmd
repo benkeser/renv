@@ -123,7 +123,7 @@ However, `renv::restore()` is slow -- it needs to download and install packages,
 which can take some time. Thus, some care is required to efficiently make use
 of the `renv` cache for projects that require: 
 
-1. Building an image multiple times (e.g., to de-bug the production application
+1. Building an image multiple times (e.g., to debug the production application
    as source code is updated), or
 
 2. Calling `renv::restore()` each time the container is run (as described 
